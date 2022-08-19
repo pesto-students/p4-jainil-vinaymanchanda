@@ -1,0 +1,118 @@
+html,
+body {
+    height: 100%; 
+}
+
+body {
+  display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin: 0;
+    font-family: Lato, sans-serif;
+    color: #222;
+    font-size: 0.9em;
+}
+
+.main {
+  flex: 1 0 auto; 
+  display: flex; 
+}
+.leftfix {
+  display:flex;
+  flex: 0 0 40px; 
+  flex-direction:column;
+  justify-content:space-around;
+  align-items:center;
+  background-color: #f0f0f0; 
+}
+
+.rightfix{
+  display: flex;
+  flex: 1 1 auto; 
+  flex-direction: column;
+}
+
+.musicbar {
+  flex: 0 0 280px; 
+  display: flex;  
+  padding: 40px;
+  background-color: #454545;
+}
+
+.musiclist {
+  flex: 1 0 auto;
+  list-style-type: none;
+  padding: 5px 10px 0px;}
+
+.downfix {
+  display:flex;
+  flex: 0 0 90px;
+  padding: 10px;
+  color: #fff;
+  background-color: #42689b;
+}
+
+.currentplaying {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  color: #fff;
+  padding-left: 50px;
+}
+
+
+li {
+  display: flex; 
+  padding: 0 20px; 
+  min-height: 50px;
+}
+li p {
+  flex: 0 0 25%;
+}
+li span.catty-cloud {
+  border: 1px solid black;
+  font-size: 0.6em;
+  padding: 3px;
+  color: blue;
+}
+
+.dark {
+  background-color: #f2f2f2;
+}
+
+
+.nowplaying {
+  display:flex;
+  margin-right:auto;
+}
+.nowplaying img {
+  padding-right: 10px;
+	width: 100px;  
+}
+ 
+.buttongroup  {
+  display:flex;
+  align-items: center;
+  justify-content:space-between ;
+  width: 50%;
+}
+
+.heading {
+  font-size: 1.8em;
+  margin: 0 0 10px;
+}
+
+.buttonplay {
+  margin-top:12em;
+}
+
+.unknownArt {
+  font-size: 0.9em;
+  margin-bottom: 0;
+}
+
+.charts {
+  font-size: 0.9em;
+  margin-top:0;
+}
